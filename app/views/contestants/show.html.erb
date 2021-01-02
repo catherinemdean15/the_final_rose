@@ -1,0 +1,7 @@
+<h1><%= @contestant.name %></h1>
+
+<%= @contestant.season %>
+Outings: <br>
+<% @contestant.outings.each do |outing| %>
+  <%= link_to "#{outing.description}", "/outings/#{outing.id}"%> <br>
+  <% end %>
