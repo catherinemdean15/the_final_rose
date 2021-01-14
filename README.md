@@ -4,32 +4,6 @@ This Rails application is intended to be used as a practice challenge for Mod 2.
 
 The Final Rose is an application that displays past Bachelorette's, their contestants, and the outings (dates) that the contestants went on while on the show. Bachelorettes have many contestants, contestants belong to a bachelorette (that feels not great to type), contestants can have many outings that they go on and an outing can have more than one contestant on it (this is a real thing that happens on the show). Before getting started, think about what this relationship will look like between Bachelors, Contestants, and Outings.
 
-## Be sure to read all user stories BEFORE beginning your work
----
-
-## Setup
-
-* Clone this repository onto your local computer
-* Perform the usual setup steps after cloning a Rails application:
-  - `bundle install`
-  - `bundle update`
-  - `rake db:{drop,create,migrate,seed}`
----
-
-### Requirements
-
-* TDD all new work; any model METHODS you write must be fully tested.
----
-### Not Required
-
-* No visual stylins is required or expected
----
-### Before Starting User Stories
-
-* This challenge uses a one-to-many and a many-to-many relationship. Your one-to-many is already set up for you. You will need to create the many-to-many relationship (and be sure to test it all).
-* You will have 2 passing model tests to start.
-
----
 
 ## User Stories
 
